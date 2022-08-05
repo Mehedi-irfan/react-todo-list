@@ -1,0 +1,109 @@
+.main-div {
+  padding: 0;
+  background-color: #041859;
+  height: 100vh;
+}
+.center-div {
+  width: 500px;
+  height: auto;
+  background-color: White;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.center-div h1 {
+  margin: 0;
+  background-color: rgb(18, 106, 106);
+  color: white;
+  padding: 10px 5px;
+  border-radius: 15px 15px 0px 0px;
+  letter-spacing: 0.8px;
+  font-style: italic;
+}
+.input-div {
+  margin: 20px auto;
+  width: 75%;
+  background-color: rgb(217, 214, 220);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-div input {
+  width: 80%;
+  border: none;
+  background-color: transparent;
+  color: #041859;
+  height: 35px;
+  font-size: 18px;
+  outline: none;
+}
+.input-div input:focus {
+  outline: none;
+}
+.input-div .icon {
+  cursor: pointer;
+  color: #fff;
+  background-color: #041859;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear;
+}
+
+.input-div .icon:hover {
+  background-color: rgb(25, 95, 95);
+}
+.show-item {
+  margin: 0px auto;
+  width: 75%;
+}
+.show-item .each-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c87014;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+  color: white;
+}
+.each-item .icon {
+  cursor: pointer;
+  color: #fff;
+  background-color: #041859;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear;
+}
+.each-item .icon:hover {
+  background-color: rgb(25, 95, 95);
+}
+
+.btn {
+  background-color: #041859;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+  margin: 20px 0;
+}
+.icon-div {
+  display: flex;
+}
+.icon:nth-child(1) {
+  margin-right: 15px;
+}
